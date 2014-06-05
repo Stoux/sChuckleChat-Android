@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">sChuckleChat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_chat_list">ChatListActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="create_chat">Begin nieuwe chat</string>
+    <string name="title_activity_user_select">User Selection</string>
+    <string name="user_select_ready">Gereed</string>
+
+</resources>

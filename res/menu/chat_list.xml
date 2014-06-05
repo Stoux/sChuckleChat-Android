@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nl.stoux.schucklechat.ChatListActivity" >
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_overflow"
+        >
+		<menu>
+		    <item
+		        android:id="@+id/create_chat"
+		        android:title="Start nieuwe chat"
+		        />
+		    <item
+		        android:id="@+id/create_group_chat"
+		        android:title="Start nieuwe groepchat"
+		        />
+		    <item
+		        android:id="@+id/change_displayname"
+		        android:title="Verander gebruikersnaam"
+		        />
+		    <item
+		        android:id="@+id/logout_action"
+		        android:title="Uitloggen"
+		        />
+		</menu>
+    </item>
+    
+
+</menu>

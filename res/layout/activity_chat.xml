@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nl.stoux.schucklechat.ChatActivity"
+    tools:ignore="MergeRootFrame"
+    android:orientation="vertical"
+    >
+    
+   	<ListView
+	    android:id="@+id/message_list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp" 
+	    android:layout_weight="1"
+	    android:background="@drawable/background"
+	    android:divider="@null"
+	    android:dividerHeight="0dp"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:paddingBottom="10dp"
+	    /> 
+	    
+   	<LinearLayout 
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:orientation="horizontal"
+   	    >
+   	    
+   	    <EditText 
+   	        android:id="@+id/message_field"
+   	        android:layout_width="0dp"
+   	        android:layout_weight="1"
+   	        android:layout_height="wrap_content"
+   	        />
+
+   	    <ImageButton
+   	        android:id="@+id/send_message_button"
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="match_parent"
+   	        android:src="@drawable/ic_action_send_now" 
+   	        android:background="@drawable/image_button_flash"
+   	        />
+   	    
+   	</LinearLayout>
+    
+</LinearLayout>
+

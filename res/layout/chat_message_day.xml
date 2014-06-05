@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:padding="3dp"
+    
+    >
+    
+    <TextView 
+        android:id="@+id/message_day_text"
+        android:text="24 juni 2014"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+    	android:layout_marginBottom="3dp"
+    	android:layout_marginLeft="10dp"
+    	android:layout_marginRight="10dp"
+    	android:background="#C5EAFA"
+    	android:padding="5dp"
+    	android:layout_centerInParent="true"
+    	android:textColor="@android:color/black"
+        />
+
+</RelativeLayout>
